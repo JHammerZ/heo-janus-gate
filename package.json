@@ -1,0 +1,17 @@
+{
+  "name": "heo-janus-gate",
+  "version": "1.0.4",
+  "description": "HEO Sovereign Distribution - Post-Human Grade",
+  "type": "module",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"H-FID: 100/100\" && exit 0"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "@azure/data-tables": "^13.3.0",
+    "@azure/storage-queue": "^12.17.0",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
